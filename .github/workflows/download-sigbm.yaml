@@ -16,17 +16,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: r-lib/actions/setup-r@v1
-        with:
-          use-public-rspm: true
-
-      - name: Install httr
-        run: install.packages("httr")
-        shell: Rscript {0}
-
-      - name: download sigbm
-        run: httr::POST("https://app.anm.gov.br/SIGBM/Publico/ClassificacaoNacionalDaBarragem/ExportarExcel", httr::write_disk(paste0("data-raw/sigbm_download_", Sys.Date(),".xlsx")))
-        shell: Rscript {0}
+      - name: Fetch latest data
+        run: |-
+          curl -X POST -d "" https://app.anm.gov.br/SIGBM/Publico/ClassificacaoNacionalDaBarragem/ExportarExcel --output data-raw/sigbm_download_`date +"%Y-%m-%d"`.xlsx
 
       - name: commit results
         run: |
