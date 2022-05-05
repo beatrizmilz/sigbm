@@ -1,0 +1,37 @@
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  "15 12 * * *"
+  workflow_dispatch:
+    branches: [main, master]
+
+
+name: download-sigbm
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: r-lib/actions/setup-r@v1
+        with:
+          use-public-rspm: true
+
+      - name: Install httr
+        run: install.packages("httr")
+        shell: Rscript {0}
+
+      - name: download sigbm
+        run: httr::POST("https://app.anm.gov.br/SIGBM/Publico/ClassificacaoNacionalDaBarragem/ExportarExcel", httr::write_disk(paste0("data-raw/sigbm_download_", Sys.Date(),".xlsx")))
+        shell: Rscript {0}
+
+      - name: commit results
+        run: |
+          git config --local user.name "$GITHUB_ACTOR"
+          git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          git add .
+          git commit -m 'Update data' || echo "Update data"
+          git push origin || echo "Update data"
