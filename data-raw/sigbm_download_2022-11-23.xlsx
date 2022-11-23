@@ -1,0 +1,199 @@
+
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta content="IE=edge" http-equiv='X-UA-Compatible' />
+    <meta charset="UTF-8" />
+    <meta name="description" content="ANM - Agência Nacional de Mineração" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Squadra Tecnologia" />
+    <title>Erro | ANM - Agência Nacional de Mineração</title>
+    <!--[if lt IE 9]>
+    <script type="text/javascript">
+        document.createElement('header');
+        document.createElement('nav');
+        document.createElement('section');
+        document.createElement('article');
+        document.createElement('aside');
+        document.createElement('footer');
+    </script>
+    <![endif]-->
+    <link rel="shortcut icon" type="image/x-icon" href="/SIGBM/favicon.ico" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap.min.css" />
+    <link href="/SIGBM/Content/cssContent?v=4XG6_T0UnxhR0EdXjhbWLT96iSMBDuOMeS3CHa4z-HI1" rel="stylesheet"/>
+
+    <!--[if IE]>
+        <script src="/SIGBM/bundles/ie?v=pTa1M5XPA9CRl3WPMxlFcDiXJjaqOYE7MaClw1Fu0oA1"></script>
+
+    <![endif]-->
+    <script src="/SIGBM/bundles/jquery?v=yuMp_AiknJx1CClwZg1H_FF6IUxqQeDHAjt3qZKPvCs1"></script>
+
+    <script src="/SIGBM/bundles/jqueryui?v=jgTOCPhejxj1C-8AKjndW-ILMMfL8XgsB076YSbLQks1"></script>
+
+    <script src="/SIGBM/bundles/modernizr?v=inCVuEFe6J4Q07A0AcRsbJic_UE5MwpRMNGcOtk94TE1"></script>
+
+    <script src="/SIGBM/bundles/Highcharts?v=a4-Mk_3eMSHxYP4eKMcMJOPnAata9O4aSYx1F5XQRG01"></script>
+
+
+    
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-897F7CMX43"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+
+
+        gtag('config', 'G-897F7CMX43');
+    </script>
+
+</head>
+<body class="page-geral">
+    <header>
+        
+<!-- Barra do Governo -->
+<div id="barra-brasil" style="background:#7F7F7F; height: 20px; padding:0 0 0 10px;display:block;">
+    <ul id="menu-barra-temp" style="list-style:none;">
+        <li style="display:inline; float:left;padding-right:10px; margin-right:10px; border-right:1px solid #EDEDED">
+            <a href="http://brasil.gov.br" style="font-family:sans,sans-serif; text-decoration:none; color:white;">Portal do Governo Brasileiro</a>
+        </li>
+    </ul>
+</div>
+
+<!-- INÍCIO TOP BAR -->
+<div class="top-bar glyphicon-icone">
+    <div class="container-fluid" style="background-color: #304b66;">
+        <h1 class="col-sm-2 no-padding-left">
+            <a href="/SIGBM/Gerenciar">
+                <img src="/SIGBM/Content/images/anm315x65branco_r.png" alt="logo" />
+            </a>
+        </h1>
+
+        <div class="col-sm-9 col-md-offset-1 no-padding">
+            <ul class="copal navTopBar margin-top-10">
+                <li>
+                    <label style="color:white">SIGBM</label>
+                    <a class="js-relogio"> </a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- FIM TOP BAR -->
+    <!-- INICIO MENU -->
+    <div class="container-fluid container-nav">
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+        </nav>
+
+    </div>
+</div>
+<!-- FIM MENU  -->
+
+<!-- Script Barra do Governo -->
+<script type="text/javascript">
+    if (!(document.documentMode <= 9)) {
+        document.write(unescape("%3Cscript defer='defer' src='//barra.brasil.gov.br/barra_2.0.js' type='text/javascript'%3E%3C/script%3E"));
+
+    }
+</script>
+
+    </header>
+    <div class="main">
+        <div class="container-fluid">
+            
+
+            <div class="content-form">
+                <div class="panel panel-default margin-top-10 margin-bottom-10">
+                    <div id="content" class="panel-body">
+                        
+
+
+<div class="container geral">
+    <div class="list-header clearfix">
+        <h3>Erro</h3>
+    </div>
+    <div class="list-sfs-holder">
+        <div class="alert alert-error">
+            Ocorreu um erro inesperado. Contate seu administrador de sistema.
+        </div>
+    </div>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <!-- FOOTER -->
+<section id="footer" class="content">
+    <div class="col-sm-12 footerLogo">
+        <a href="#">
+            <img src="/SIGBM/Content/images/anm315x65branco_r.png" alt="logo" />
+        </a>
+    </div>
+</section>
+    </footer>
+    <div id="loading" class="modal-backdrop" style="text-align: center; display: none; z-index: 99998; background: transparent;">
+        <div style="position: fixed; top: 49px; width: 60px; background: #333; color: #fff; text-align: center; padding: 5px; background: #455560; left: 50%; border-radius: 0 0 5px 5px;">
+            <span class="">
+                <img src="/SIGBM/Content/images/ajax-loaderTopoFundo.gif" />
+            </span>
+        </div>
+        <div class="modal-backdrop" style="text-align: center; z-index: 99998; opacity: 0; filter: alpha(opacity=0);"></div>
+    </div>
+    
+    <script src="/SIGBM/bundles/bootstrap?v=VLcuR1ad1Itn33jla6w62bnxIPoEemXF8Kvj65PkBJg1"></script>
+
+    <script src="/SIGBM/bundles/jqueryval?v=TZk3tfr_Z8Ck0i-80w84k9YDbNMcOwXFq1MoaOh_tLI1"></script>
+
+    <script src="/SIGBM/bundles/jqueryajax?v=CXI7xrCuunb4idez09DWrNNDzVHEEBgVObHB6tXOiZo1"></script>
+
+    <script src="/SIGBM/bundles/jqueryplugin?v=kQmHKSjhp8_Ld_g9aJJzaxRuELzmj_NR96nmaza-Uw81"></script>
+
+    <script src="/SIGBM/bundles/jsviews/jsrender?v=QOlkrdg5jQTFM0L85S4pcOFX0CXgvnekRIbOBZHgibw1"></script>
+
+    <script src="/SIGBM/bundles/jquery-js-utils?v=sRGm_2ia0hKSXZAQcUf_PDbYFgBapRHR4qJp_ttLFQ81"></script>
+
+    <script src="/SIGBM/bundles/geral?v=gk4QOdY1xiL6DD3r0twI4foZDhKoc_S8FBHJpRIsDKc1"></script>
+
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap.min.js"></script>
+    
+    
+    <script type="text/javascript">
+        window.$rootUrl = '/SIGBM/'
+        Globalize.culture('pt-BR');
+
+        $.validator.setDefaults({ ignore: ":hidden:not(select)" });
+
+        bootbox.addLocale("br", {
+            OK: "OK",
+            CANCEL: "Na&#771;o",
+            CONFIRM: "Sim"
+        });
+
+        bootbox.setDefaults({ locale: "br" });
+
+        Math.trunc = Math.trunc || function (x) {
+            return x < 0 ? Math.ceil(x) : Math.floor(x);
+        }
+
+        $(document).ajaxUtils({
+            divloading: '#loading',
+            urlAccessDenied: 'https://app.anm.gov.br/SIGBM/acesso-negado',
+        });
+    </script>
+</body>
+</html>
