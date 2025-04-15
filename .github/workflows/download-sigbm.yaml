@@ -16,6 +16,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Atualizar certificados CA
+        run: sudo apt-get update && sudo apt-get install -y ca-certificates
+
       - name: Fetch latest data
         run: |-
           curl -X POST -d "" https://app.anm.gov.br/SIGBM/Publico/ClassificacaoNacionalDaBarragem/ExportarExcel --output data-raw/sigbm_download_`date +"%Y-%m-%d"`.xlsx
